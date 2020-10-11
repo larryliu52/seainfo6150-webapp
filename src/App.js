@@ -14,7 +14,7 @@ function App() {
         "http://demo1390455.mockable.io/articles"
       );
       const responseJson = await response.json();
-      setFetchedData(responseJson.data);
+      setFetchedData(responseJson);
     };
 
     if (isEmpty(fetchedData)) {
