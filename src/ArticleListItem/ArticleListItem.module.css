@@ -1,0 +1,27 @@
+.articleItem {
+    border: red solid;
+    border-bottom-width: 2px;
+    border-radius: 20px;
+    background-image: linear-gradient(100deg, #d89292, white 30%);
+    margin: 3em;
+    padding: 2em;
+}
+
+.articleBody{
+    border: 3px solid #651212;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f85050, white 30%);
+    box-shadow: 2px 2px 5px;
+    margin-bottom: 20px;
+    padding: 0 15px 15px 15px;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+.displayTime {
+    font-weight: bold;
+}
