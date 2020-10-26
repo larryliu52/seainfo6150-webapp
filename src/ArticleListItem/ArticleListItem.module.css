@@ -1,3 +1,11 @@
+.title {
+    color: red;
+    font-weight: bold;
+    margin-top: 0.2em;
+}
+
+
+
 .articleItem {
     border: red solid;
     border-bottom-width: 2px;
@@ -6,6 +14,8 @@
     margin: 3em;
     padding: 2em;
 }
+
+
 
 .articleBody{
     border: 3px solid #651212;
@@ -16,11 +26,7 @@
     padding: 0 15px 15px 15px;
 }
 
-.title {
-    color: red;
-    font-weight: bold;
-    margin-top: 0.2em;
-}
+
 
 .displayTime {
     font-weight: bold;
