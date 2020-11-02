@@ -6,5 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     padding: 15px;
+    align-items: stretch;
+    display: grid;
+    gap: 25px 25px;
+    grid-auto-flow: row;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: auto;
   }
   
