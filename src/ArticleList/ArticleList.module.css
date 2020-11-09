@@ -22,15 +22,15 @@
 @media screen and (min-width: 1100px){  
   .container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    padding: 1em;
+    gap: 1.1em;
+    padding: 1.1em;
   }
 }
 
 @media (min-width: 600px) and (max-width: 1100) {
   .container {
     grid-template-columns: repeat(2.5, 1fr);
-    gap: 1em;
-    padding: 1em;
+    gap: 1.2em;
+    padding: 1.1em;
   }
 }
