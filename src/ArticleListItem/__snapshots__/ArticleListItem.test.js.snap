@@ -1,5 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ArticleListItem tests hide detail correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <article
+      class="article"
+    >
+      <div
+        class="wrapper"
+      >
+        <div>
+          <img
+            class="imageStyle"
+            src="https://cdn.cnn.com/cnnnext/dam/assets/160315093137-tollymore-forest-super-169.jpg"
+          />
+          <h1
+            class="title"
+          >
+            <u>
+              The Statue of Liberty's torch heads to new museum
+            </u>
+          </h1>
+        </div>
+      </div>
+      <button
+        class="button"
+      >
+        Show more
+      </button>
+    </article>
+  </li>
+</div>
+`;
+
 exports[`ArticleListItem tests renders correctly 1`] = `
 <div>
   <li
@@ -21,6 +56,54 @@ exports[`ArticleListItem tests renders correctly 1`] = `
         class="button"
       >
         Show more
+      </button>
+    </article>
+  </li>
+</div>
+`;
+
+exports[`ArticleListItem tests show more correctly 1`] = `
+<div>
+  <li
+    class="container"
+  >
+    <article
+      class="article"
+    >
+      <div
+        class="wrapper"
+      >
+        <div>
+          <img
+            class="imageStyle"
+            src="https://cdn.cnn.com/cnnnext/dam/assets/160315093137-tollymore-forest-super-169.jpg"
+          />
+          <h1
+            class="title"
+          >
+            <u>
+              The Statue of Liberty's torch heads to new museum
+            </u>
+          </h1>
+        </div>
+        <div
+          class="text"
+        >
+          <p>
+            The Statue of Liberty's original torch is getting a new home
+          </p>
+          <time
+            class="time"
+            datetime="2018-11-22T15:12:24.000Z"
+          >
+            November 22nd 2018, 7:12 am
+          </time>
+        </div>
+      </div>
+      <button
+        class="button"
+      >
+        Show less
       </button>
     </article>
   </li>

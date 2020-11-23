@@ -1,0 +1,7 @@
+.imageStyle {
+    border: 6px solid red;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px gray;
+    width: 55%;
+    margin: 10px 0px 10px 0px;
+}
